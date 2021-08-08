@@ -13,7 +13,7 @@
         android:layout_marginTop="180dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Number 1"
+        android:hint="Number 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +25,7 @@
         android:layout_marginTop="31dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Number 2"
+        android:hint="Number 2"
         app:layout_constraintStart_toStartOf="@+id/etVar1"
         app:layout_constraintTop_toBottomOf="@+id/etVar1" />
 

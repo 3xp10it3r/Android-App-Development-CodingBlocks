@@ -24,7 +24,12 @@ class MainActivity : AppCompatActivity() {
         etVar2 = findViewById(R.id.etVar2)
         tvResult = findViewById(R.id.tvResult)
 
-        btnAdd?.setOnClickListener(View.OnClickListener {
+//        btnAdd?.setOnClickListener(View.OnClickListener {
+//            var result = etVar1?.text.toString().toInt() + etVar2?.text.toString().toInt();
+//            tvResult?.text = result.toString()
+//        });
+
+        btnAdd?.setOnClickListener({
             var result = etVar1?.text.toString().toInt() + etVar2?.text.toString().toInt();
             tvResult?.text = result.toString()
         });
