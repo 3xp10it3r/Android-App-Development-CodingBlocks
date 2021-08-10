@@ -33,14 +33,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/kuch_bhi"
+        android:hint="@string/num1"
         android:inputType="textPersonName" />
     <EditText
         android:id="@+id/editTextTextPersonName1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/kuch_bhi"
+        android:hint="@string/num2"
         android:inputType="textPersonName" />
 
     <ImageView
@@ -49,4 +49,67 @@
         android:layout_height="wrap_content"
 
         app:srcCompat="@drawable/ic_launcher_background" />
+
+    <CheckBox
+        android:checked="true"
+        android:buttonTint="@color/purple_700"
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_checkbox" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:buttonTint="@color/purple_700"
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton1" />
+
+        <RadioButton
+
+            android:buttonTint="@color/purple_700"
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton2" />
+
+        <RadioButton
+            android:buttonTint="@color/purple_700"
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton3" />
+    </RadioGroup>
+
+
+    <ToggleButton
+        android:buttonTint="@color/purple_700"
+        android:id="@+id/toggleButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+    <Switch
+        android:thumbTint="@color/purple_700"
+        android:trackTint="@color/purple_200"
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_margin="16dp"
+        android:layout_gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        tools:src="@android:drawable/ic_input_add" />
+
 </LinearLayout>

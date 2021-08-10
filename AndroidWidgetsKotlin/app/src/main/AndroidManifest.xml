@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidWidgetsKotlin">
         <activity
+            android:theme="@style/Theme.App.Default"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

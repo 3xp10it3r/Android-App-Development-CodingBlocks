@@ -3,4 +3,7 @@
     <string name="button">Button</string>
     <string name="kuch_bhi">Kuch bhi</string>
     <string name="hello_happy">Hello Happy!</string>
+    <string name="num1">num1</string>
+    <string name="num2">num2</string>
+    <string name="this_is_checkbox">This is CheckBox</string>
 </resources>
