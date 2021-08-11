@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentsKotlin</string>
+    <string name="button">Button</string>
+    <string name="go_to_another_activity">Go To Another Activity</string>
+</resources>
